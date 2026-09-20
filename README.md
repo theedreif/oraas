@@ -179,6 +179,30 @@ ORaaS has a documented lineage across Ed Reif's published work:
 
 See [Intellectual Lineage](docs/intellectual-lineage.md) for the full provenance map.
 
+## Related Decision Doctrine
+
+**[The Architecture of Uncertainty: How to Structure Your Exposure to a World You Don’t Control](https://www.amazon.co.uk/Architecture-Uncertainty-Structure-Exposure-Asymmetrical/dp/B0HH2Z2FQT)** — the decision architecture beneath the broader system: draw the boundary between what you control, what you can influence, and what you must price as uncertainty; protect the floor, size exposure, preserve optionality, act before certainty, and update from evidence.
+
+Its relationship to ORaaS is complementary rather than a direct provenance claim:
+
+```text
+THE ARCHITECTURE OF UNCERTAINTY
+Decision architecture
+How do we structure exposure when we do not control the outcome?
+        ↓
+ME, MYSELF AND AI
+Capability architecture
+How do we extract and scale expert judgment under uncertainty?
+        ↓
+ORaaS
+Deployment architecture
+How do we expose that judgment to friction, measure it, validate it, and update it?
+```
+
+The connection is operational: uncertainty becomes a **design constraint**. ORaaS carries that principle into Variable Matrices, bounded Synthetic Friction, behavioral telemetry, validation, and continuous updating.
+
+> **Decision Science → Capability Architecture → Operational Deployment**
+
 ## Provenance
 
 The terminology and architecture in this repository are derived primarily from Ed Reif's manuscript *ME, MYSELF AND AI: Scaling to Infinity*, with the *404 Protocol* documenting an earlier human-centered foundation for uncertainty, signal/noise, resilience, and action when the expected path disappears.
