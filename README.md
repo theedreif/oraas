@@ -4,6 +4,16 @@
 
 > **ORaaS scales expert judgment and measures whether it survives friction.**
 
+## Start Here
+
+**[ORaaS Readiness Doctrine](docs/oraas-readiness-doctrine.md)**  
+*Engineering in. Capability out. Evidence always.*
+
+**[Operational Readiness Diagnostic](services/operational-readiness-diagnostic.md)**  
+*One role. One workflow. One failure mode. Five days.*
+
+The doctrine defines what ORaaS believes. The diagnostic defines the first thing a customer can buy.
+
 Operational Readiness-as-a-Service is a continuous human-capability system for extracting expert judgment, encoding it as Logic Anchors, exposing operators to bounded synthetic friction, capturing behavioral telemetry against deterministic standards, validating those signals against field outcomes, and continuously reducing operational variance.
 
 This repository operationalizes the doctrine developed in Ed Reif's *ME, MYSELF AND AI: Scaling to Infinity*. It is not a conventional course platform, an LMS replacement, or an AI playbook that simply executes an SOP faster.
@@ -54,6 +64,8 @@ The model is not the judge. **The model is the weather. The deterministic layer 
 
 | Component | Purpose |
 |---|---|
+| [ORaaS Readiness Doctrine](docs/oraas-readiness-doctrine.md) | Canonical doctrine for readiness under friction and continuous certification |
+| [Operational Readiness Diagnostic](services/operational-readiness-diagnostic.md) | Fixed-scope commercial entry point: one role, one workflow, one failure mode, five days |
 | [ORaaS Architecture](docs/architecture.md) | End-to-end system and separation of responsibilities |
 | [Logic Anchor Specification](docs/logic-anchor.md) | Atomic unit of encoded expert judgment |
 | [Judgment Extraction Protocol](docs/judgment-extraction-protocol.md) | Method for capturing tacit expert judgment |
