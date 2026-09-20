@@ -169,6 +169,8 @@ ORaaS has a documented lineage across Ed Reif's published work:
 
 **[ME, MYSELF AND AI: Scaling to Infinity](https://www.edreif.com/2026/08/me-myself-and-ai-scaling-to-infinity.html)** — the primary capability doctrine: the Operational Self, judgment extraction, SOP → ROP, Failure Modes, Logic Anchors, synthetic friction, telemetry, deterministic scoring, Heat Map of Competence, and Operational Readiness-as-a-Service.
 
+**Published book:** [ME, MYSELF AND AI: Operational Readiness](https://www.amazon.com/Me-Myself-AI-Operational-Readiness/dp/B0GZL927GJ)
+
 ↓
 
 **ORaaS** — the deployment and commercial model: extract → encode → friction → observe → score → validate → update.
