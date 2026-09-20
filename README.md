@@ -231,3 +231,12 @@ The terminology and architecture in this repository are derived primarily from E
 
 Author: **Ed Reif**  
 GitHub: **theedreif**
+
+
+---
+
+## Field System Field Card
+
+**Seven Doors. Core operating loops. Field instruments. Evidence ladder.**
+
+[Download the Ed Reif Field System Field Card](https://github.com/theedreif/theedreif/blob/main/assets/field-system/Ed-Reif-Field-System-Field-Card.pdf) — the portable reference for the complete Field System.
