@@ -153,6 +153,73 @@ That is the ORaaS proposition in public: do not wait for an outside researcher, 
 
 **Evidence status:** public case analysis based on published reporting and company statements. It demonstrates how the ORaaS diagnostic can frame a real incident; it is not a claim that Ed Reif, ORaaS, Skydio, or SFPD ran this diagnostic or produced these proposed telemetry controls before the incident.
 
+## Public case — Attritable Is Not a Readiness Word
+
+**The Dive-LD recovery near the Strait of Hormuz, read as a mission/recovery readiness case**
+
+This is a public incident used as a case analysis. It is **not** evidence of systemic failure of autonomous undersea operation, and it is not evidence that ORaaS was used by Anduril, the U.S. Navy, or U.S. Central Command.
+
+Public reporting in September 2026 identified an autonomous underwater vehicle recovered by Iran near the Strait of Hormuz as an Anduril Dive-LD. Iranian authorities described the event as a capture. A U.S. account reported through Reuters and other outlets said the vehicle had malfunctioned during a survey mission; Anduril confirmed the loss and described Dive-LD as an attritable autonomous system designed for dangerous environments where vehicle loss is an expected possibility.
+
+The narrow ORaaS reading is therefore a **platform-level mission/recovery setback** and a contingency-design question. The public evidence does not establish a broader conclusion about the reliability or readiness of autonomous undersea operations.
+
+### Attritable is not a readiness word
+
+Attritability prices the possibility of losing the vehicle. That can be a sound design and procurement choice: put the machine where people should not have to go.
+
+But the cost of the vehicle and the operational consequence of losing control of it are different variables.
+
+A programme can accept vehicle loss by design and still need an explicit, rehearsed answer to a different question:
+
+> **What happens after the vehicle stops responding, and how quickly must the operating system classify and act on that state?**
+
+That is the readiness problem this case exposes.
+
+### The number nobody had — publicly
+
+Reporting described the vehicle as having malfunctioned roughly a day before its recovery. Public sources do **not** establish the internal U.S. recovery timeline, decision thresholds, authorities, attempts, or contingency procedures. ORaaS therefore cannot claim that no such threshold existed.
+
+What the public record does provide is a useful scenario boundary: an unmanned vehicle can become non-maneuverable in a strategically sensitive operating area and remain so long enough for another actor to recover it.
+
+That is enough to design the rehearsal.
+
+### Run it through the ORaaS spine
+
+**Signal.** Time from last contact or loss of expected behavior to an operationally classified state — for example transiting, degraded, immobile, lost, or unrecoverable — followed by time from classification to the required decision. The exact state model belongs to the accountable operator.
+
+**Threshold.** The point at which a disabled or unresponsive vehicle stops being treated only as a recovery problem and must also be treated as an exposure problem. That threshold cannot be inferred from public reporting. It should be established from authoritative mission, security, safety, legal, and operating-area requirements before deployment.
+
+**Friction.** Rehearse the contingency cold: an autonomous vehicle stops responding in a named operating environment, during an inconvenient watch, with incomplete information. Who classifies the state? Who owns the clock? What authorities exist? What decisions are required, and by when? The exercise tests the human-machine operating system, not merely the vehicle.
+
+**Red.** The measurable gap between the authoritative response threshold and actual performance in rehearsal. The public incident does not establish that internal gap; a diagnostic would create the conditions to measure it without waiting for another real loss.
+
+**Evidence.** Log loss-of-contact and degraded-state events with timestamps, classifications, decisions, recoveries, false alarms, and near-misses where policy permits. Resolved events matter because they provide lower-cost evidence about a contingency that should remain rare.
+
+### Why this sits beside the ReadyLink case
+
+The two public cases illuminate different sides of the same readiness doctrine.
+
+**ReadyLink:** the technology could continue operating while the surrounding system lacked a useful alarm for an exposure state.
+
+**Dive-LD:** the platform reportedly malfunctioned, creating a contingency in which the speed and quality of classification, recovery, and exposure decisions become operationally important.
+
+One asks:
+
+> **Can we detect the dangerous state hiding inside apparently normal operation?**
+
+The other asks:
+
+> **When failure is already an accepted possibility, have we rehearsed what happens next?**
+
+Together they show why readiness is larger than reliability. A reliable component can live inside an unready operating system, and an attritable component still requires a ready contingency system.
+
+### Public sources
+
+- [Al Jazeera — Did Iran capture a US submarine? What we know about the underwater drone](https://www.aljazeera.com/news/2026/9/9/has-iran-captured-an-unmanned-us-submarine-what-we-know)
+- [Naval News — Underwater Drone Captured By Iran Matches American Anduril Model](https://www.navalnews.com/naval-news/2026/09/underwater-drone-captured-by-iran-matches-american-anduril-model/)
+
+**Evidence status:** public case analysis. Identification of the vehicle as Dive-LD is supported by published imagery analysis and subsequent reporting. The U.S. malfunction account and Anduril's characterization of the system as attritable are reported statements. Internal recovery procedures, decision thresholds, mission data, vehicle configuration, security behavior, and the detailed circumstances of the recovery are not established here and are not inferred.
+
 ## Worked example — Silent Churn
 
 The repository includes a worked corporate-domain example built around an at-risk customer renewal.
