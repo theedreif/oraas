@@ -181,6 +181,16 @@ See [Intellectual Lineage](docs/intellectual-lineage.md) for the full provenance
 
 ## Related Decision Doctrine
 
+### Operating Philosophy — Youniversal Flow
+
+**[Youniversal Flow: Understanding Reality. Operating Inside It.](https://www.amazon.com/Youniversal-Flow-Understanding-Reality-Operating)** — the operating philosophy of **bounded agency**: accept the reality you cannot command, notice the field, design the position you can control, act before certainty arrives, release the outcome, and update from evidence.
+
+```text
+ACCEPT → NOTICE → POSITION → ACT → RELEASE → UPDATE → ACCEPT
+```
+
+Its relationship to ORaaS is philosophical rather than technical. *Youniversal Flow* asks how a person operates intelligently inside a reality they do not control; ORaaS applies a related discipline to organizational capability by exposing judgment to changing conditions, observing behavior, validating evidence, and updating the system.
+
 **[The Architecture of Uncertainty: How to Structure Your Exposure to a World You Don’t Control](https://www.amazon.co.uk/Architecture-Uncertainty-Structure-Exposure-Asymmetrical/dp/B0HH2Z2FQT)** — the decision architecture beneath the broader system: draw the boundary between what you control, what you can influence, and what you must price as uncertainty; protect the floor, size exposure, preserve optionality, act before certainty, and update from evidence.
 
 Its relationship to ORaaS is complementary rather than a direct provenance claim:
