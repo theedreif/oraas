@@ -108,6 +108,51 @@ Read out the first evidence, identify what turns the instrument red, document wh
 
 Day five does not end the measurement. It establishes the baseline from which continuing evidence can be compared.
 
+## Public case — When Nothing Technically Went Wrong
+
+**The SFPD ReadyLink exposure, read through the ORaaS readiness lens**
+
+This is a public incident used as a case analysis, not an ORaaS customer engagement and not evidence that this diagnostic was run before the event.
+
+In July 2026, reporting described a ReadyLink associated with five SFPD drone feeds that required no authentication and had been configured with a one-year expiration. Security researchers Sam Curry and Maik Robert found the link after it appeared in an open archive of web URLs. Reporting indicated that the link may have exposed access for roughly six months before discovery.
+
+The useful ORaaS distinction is **reliability versus readiness**. The public reporting did not describe an exploit of the drone aircraft or a conventional software hack. The exposure arose through an allowed sharing configuration. A system can therefore behave as configured while the operational system around it remains unable to detect that the configuration has created unacceptable exposure.
+
+### The missing alarm
+
+The readiness question is not merely whether the share feature worked. It is whether the operating system around the feature could detect an unsafe or unintended state quickly enough to matter.
+
+Run through the ORaaS spine:
+
+**Signal.** Viewer-side telemetry for every live share: authentication state, share age, viewer/session activity, and whatever viewer identity or network information the organization is lawfully permitted to collect and use.
+
+**Threshold.** This must be established by the accountable organization and authoritative security/privacy policy. Candidate triggers for evaluation could include a long-lived active share without authentication, anomalous viewer activity, or activity outside the intended audience. The repository does **not** assert that 72 hours, a particular address range, or any other number is a universally valid threshold.
+
+**Friction.** Rehearse ordinary use under pressure: create a share using an allowed but high-exposure configuration, then test whether internal controls detect and escalate it. This is not a red-team exploit against the software. It is a normal-use test against the blind spot.
+
+**Red.** In the public incident, discovery came from outside researchers after the link had reportedly been exposed for months. For readiness purposes, externally discovered exposure is the observed failure condition. A future program should define its own acceptable internal detection threshold and test against it.
+
+**Evidence.** A recurring operational readout of active shares, age, authentication state, and available viewer/audit activity. The useful outcome is not a dramatic dashboard. It is an instrument capable of returning a boring reading when nothing is wrong and raising a defensible signal when conditions cross an approved boundary.
+
+### Why this case matters
+
+The case demonstrates the difference between a component doing what it was configured to do and an operational system being ready for the consequences of that configuration.
+
+**Day zero:** the exposure can exist without a useful internal signal.
+
+**Day six target:** the exposure class has a count, an authoritative threshold, a test, and a bell.
+
+That is the ORaaS proposition in public: do not wait for an outside researcher, reporter, customer, regulator, or incident to tell you what your own operating system should already be capable of seeing.
+
+### Public sources
+
+- [WIRED — A Leak of San Francisco Police Drone Footage Exposes the New Reality of Urban Surveillance](https://www.wired.com/story/sfpd-drone-video-leak-surveillance/)
+- [Skydio — company blog / security response archive](https://www.skydio.com/blog)
+- [ABC7 San Francisco — SFPD drone livestreams exposed online for months](https://abc7news.com/post/san-francisco-police-department-drone-livestreams-exposed-online-months-wired-investigation-shows/19501550/)
+- [DroneXL — SFPD Skydio Drone Feeds Streamed Live On The Open Internet For Six Months](https://dronexl.co/2026/07/13/sfpd-skydio-drone-feed-live-internet/)
+
+**Evidence status:** public case analysis based on published reporting and company statements. It demonstrates how the ORaaS diagnostic can frame a real incident; it is not a claim that Ed Reif, ORaaS, Skydio, or SFPD ran this diagnostic or produced these proposed telemetry controls before the incident.
+
 ## Worked example — Silent Churn
 
 The repository includes a worked corporate-domain example built around an at-risk customer renewal.
