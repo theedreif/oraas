@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or reference this repository, please cite it as below."
+title: "Operational Readiness-as-a-Service (ORaaS)"
+type: software
+authors:
+  - family-names: "Reif"
+    given-names: "Ed"
+    alias: "theedreif"
+url: "https://github.com/theedreif/oraas"
+repository-code: "https://github.com/theedreif/oraas"
+abstract: "Operational Readiness-as-a-Service: a continuous human-capability architecture for encoding expert judgment, applying synthetic friction, capturing behavioral telemetry, validating readiness signals against field outcomes, and reducing operational variance."
+keywords:
+  - operational-readiness
+  - operational-readiness-as-a-service
+  - judgment-under-uncertainty
+  - decision-science
+  - human-performance
+  - instructional-design
+  - synthetic-friction
+  - telemetry
+  - field-learning
+  - ai-skills
