@@ -61,6 +61,7 @@ The model is not the judge. **The model is the weather. The deterministic layer 
 | [Validation Ladder](docs/validation-ladder.md) | Path from loop evidence to defensible readiness claims |
 | [Commercial Model](docs/commercial-model.md) | Shift from content delivery to continuous variance mitigation |
 | [Worked Example](examples/silent-churn.md) | Corporate-domain example: detecting a renewal at risk |
+| [Intellectual Lineage](docs/intellectual-lineage.md) | Published roots: 404 Protocol → *ME, MYSELF AND AI* → ORaaS |
 
 ## Doctrine
 
@@ -158,9 +159,27 @@ Do not build the enterprise dashboard first.
 
 Build the thread of evidence first.
 
+## Source Doctrine & Intellectual Lineage
+
+ORaaS has a documented lineage across Ed Reif's published work:
+
+**[When Things Start to Buffer: The 404 Protocol](https://www.edreif.com/2025/08/when-things-start-to-buffer-404-error.html)** — the human foundation: uncertainty, resilience, signal versus noise, and operating when the expected path disappears.
+
+↓
+
+**[ME, MYSELF AND AI: Scaling to Infinity](https://www.edreif.com/2026/08/me-myself-and-ai-scaling-to-infinity.html)** — the primary capability doctrine: the Operational Self, judgment extraction, SOP → ROP, Failure Modes, Logic Anchors, synthetic friction, telemetry, deterministic scoring, Heat Map of Competence, and Operational Readiness-as-a-Service.
+
+↓
+
+**ORaaS** — the deployment and commercial model: extract → encode → friction → observe → score → validate → update.
+
+**Smart Friction** remains a design principle inside this lineage rather than a separate source branch. In ORaaS it matures into bounded **Synthetic Friction**: purposeful, field-relevant difficulty used to expose whether judgment survives contact with reality.
+
+See [Intellectual Lineage](docs/intellectual-lineage.md) for the full provenance map.
+
 ## Provenance
 
-The terminology and architecture in this repository are derived from Ed Reif's manuscript *ME, MYSELF AND AI: Scaling to Infinity*, including its treatment of Capability Architecture, the Operational Self, SOP versus ROP, Failure Modes, Logic Anchors, Friction Engines, telemetry, deterministic scoring, the Heat Map of Competence, and Operational Readiness-as-a-Service.
+The terminology and architecture in this repository are derived primarily from Ed Reif's manuscript *ME, MYSELF AND AI: Scaling to Infinity*, with the *404 Protocol* documenting an earlier human-centered foundation for uncertainty, signal/noise, resilience, and action when the expected path disappears.
 
 Author: **Ed Reif**  
 GitHub: **theedreif**
